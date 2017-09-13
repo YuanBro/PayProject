@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENVIRONMENT</key>
+	<string>stg</string>
+	<key>requestTimeout</key>
+	<integer>450</integer>
+	<key>Debug</key>
+	<true/>
+	<key>NetworkActivityIndicatorVisible</key>
+	<true/>
+	<key>serverAddress</key>
+	<dict>
+		<key>dev</key>
+		<string>aHR0cDovLzEwLjcuMTk1LjU0OjgwODAvdHBsLWF1dG8tY2xhaW0tYmFja2VuZC9jbGFpbQ==</string>
+		<key>sit</key>
+		<string>aHR0cDovLzEwLjEuMTcuOTo3MDAxL3RwbC1hdXRvLWNsYWltLWlwYWQvY2xhaW0=</string>
+		<key>stg</key>
+		<string>aHR0cHM6Ly8xMTYuMjI4LjUyLjE0NTo4MC90cGwtYXV0by1jbGFpbS1pcGFkL2NsYWlt</string>
+		<key>prd</key>
+		<string></string>
+	</dict>
+	<key>serverInterface</key>
+	<dict>
+		<key>TaipingXMLTest</key>
+		<dict>
+			<key>urlString</key>
+			<string>TpDemo/test.do?method=testRequest</string>
+		</dict>
+	</dict>
+	<key>customInterface</key>
+	<dict>
+		<key>TaipingServerDev</key>
+		<dict>
+			<key>dev</key>
+			<string>aHR0cDovLzEwLjcuMTk1LjU0OjgwODAvdHBsLWF1dG8tY2xhaW0tYmFja2VuZC9jbGFpbQ==</string>
+			<key>sit</key>
+			<string>aHR0cDovLzEwLjEuMTcuOTo3MDAxL3RwbC1hdXRvLWNsYWltLWlwYWQvY2xhaW0=</string>
+			<key>stg</key>
+			<string>aHR0cDovLzExNi4yMzYuMjQ1LjE5NDo4MC90cGwtYXV0by1jbGFpbS1pcGFkL2NsYWlt</string>
+			<key>prd</key>
+			<string>aHR0cHM6Ly9laW5zdS50cGxpZmUuY29tL3RwbC1hdXRvLWNsYWltLWlwYWQvY2xhaW0=</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

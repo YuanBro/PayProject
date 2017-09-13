@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>PersonNum</key>
+		<string>008364536777</string>
+		<key>ApplyName</key>
+		<string>黄药师</string>
+		<key>BenifitName</key>
+		<string>黄蓉</string>
+		<key>Status</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>PersonNum</key>
+		<string>008364536888</string>
+		<key>ApplyName</key>
+		<string>郭靖</string>
+		<key>BenifitName</key>
+		<string>黄蓉</string>
+		<key>Status</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>PersonNum</key>
+		<string>8364536999</string>
+		<key>ApplyName</key>
+		<string>成龙</string>
+		<key>BenifitName</key>
+		<string>房祖名</string>
+		<key>Status</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>PersonNum</key>
+		<string>8364536666</string>
+		<key>ApplyName</key>
+		<string>周杰伦</string>
+		<key>BenifitName</key>
+		<string>昆凌</string>
+		<key>Status</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>PersonNum</key>
+		<string>8364536555</string>
+		<key>ApplyName</key>
+		<string>唐伯虎</string>
+		<key>BenifitName</key>
+		<string>秋香</string>
+		<key>Status</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

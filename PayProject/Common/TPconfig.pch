@@ -1,0 +1,18 @@
+//
+//  TPconfig.pch
+//  PayProject
+//
+//  Created by yuan on 2017/1/11.
+//  Copyright © 2017年 yuan. All rights reserved.
+//
+
+#ifndef TPconfig_pch
+#define TPconfig_pch
+
+#import "comfig.h"
+
+#import "Acdata.h"
+
+#import <MBProgressHUD.h>
+
+#endif /* TPconfig_pch */
