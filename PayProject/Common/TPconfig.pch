@@ -13,6 +13,6 @@
 
 #import "Acdata.h"
 
-#import <MBProgressHUD.h>
+//#import <MBProgressHUD.h>
 
 #endif /* TPconfig_pch */

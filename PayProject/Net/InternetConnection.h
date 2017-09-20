@@ -12,7 +12,7 @@
 @interface InternetConnection : NSURLConnection {
     NSInteger       identityID_;
     NSMutableData   *cacheData_;
-    id              callBackDelegate_;
+//    id              callBackDelegate_;
     BOOL            active_;
     BOOL            isStoreCache_;
     NSString        *returnDataType_;

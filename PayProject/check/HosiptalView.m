@@ -92,15 +92,14 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row == [hospitalInfoViews count]) {
-        return 54;
-    }
-    NSInteger illnessCount = [[illnessCountArray objectAtIndex:indexPath.row] integerValue];
-    if (TestModeEx) {
-        return 44.0f * (7 + illnessCount);
-    } else {
-        return 44.0f * (6 + illnessCount);
-    }
+//    if (indexPath.row == [hospitalInfoViews count]) {
+//        return 54;
+//    }
+//    NSInteger illnessCount = [[illnessCountArray objectAtIndex:indexPath.row] integerValue];
+//    
+//        return 44.0f * (6 + illnessCount);
+    return 54;
+   
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

@@ -91,7 +91,7 @@
 }
 -(void)menuAction:(UIButton*)sender
 {
-    ACDATA.TAG=sender.tag;
+    ACDATA.TAG=(int)sender.tag;
 
     switch (sender.tag) {
         case 0:

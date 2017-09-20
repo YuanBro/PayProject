@@ -26,17 +26,14 @@
         self.isStoreCache_ = NO;
         NSMutableData *data = [[NSMutableData alloc] initWithCapacity:100];
         self.cacheData_ = data;
-        [data release];
+      
     }
     
     return self;
 }
 
 - (void)dealloc {
-    [cacheData_ release];
-    [returnDataType_ release];
-    [returnDataEncoding_ release];
-    [super dealloc];
+   
 }
 
 @end
