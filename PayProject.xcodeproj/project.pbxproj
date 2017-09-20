@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C9F9C0E1E265AAC00995032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F9C0D1E265AAC00995032 /* main.m */; };
 		E61ABA821F71FD5300984112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61ABA321F71FD5300984112 /* Assets.xcassets */; };
 		E61ABA831F71FD5300984112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61ABA331F71FD5300984112 /* LaunchScreen.storyboard */; };
 		E61ABA841F71FD5300984112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61ABA351F71FD5300984112 /* Main.storyboard */; };
@@ -22,7 +21,6 @@
 		E61ABA8D1F71FD5300984112 /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA4A1F71FD5300984112 /* CheckViewController.m */; };
 		E61ABA8E1F71FD5300984112 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = E61ABA4B1F71FD5300984112 /* data.plist */; };
 		E61ABA8F1F71FD5300984112 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA4D1F71FD5300984112 /* DatePickerViewController.m */; };
-		E61ABA901F71FD5300984112 /* HosiptalView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA4F1F71FD5300984112 /* HosiptalView.m */; };
 		E61ABA911F71FD5300984112 /* PerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA511F71FD5300984112 /* PerLabel.m */; };
 		E61ABA921F71FD5300984112 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA531F71FD5300984112 /* PersonModel.m */; };
 		E61ABA931F71FD5300984112 /* PerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA551F71FD5300984112 /* PerTextField.m */; };
@@ -39,16 +37,20 @@
 		E61ABA9E1F71FD5300984112 /* UserLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA6F1F71FD5300984112 /* UserLoginView.m */; };
 		E61ABA9F1F71FD5300984112 /* UserLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61ABA701F71FD5300984112 /* UserLoginView.xib */; };
 		E61ABAA01F71FD5300984112 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA711F71FD5300984112 /* main.m */; };
-		E61ABAA11F71FD5300984112 /* InternetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA741F71FD5300984112 /* InternetConfig.m */; };
-		E61ABAA21F71FD5300984112 /* InternetConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E61ABA751F71FD5300984112 /* InternetConfig.plist */; };
-		E61ABAA31F71FD5300984112 /* InternetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA781F71FD5300984112 /* InternetConnection.m */; };
-		E61ABAA41F71FD5300984112 /* TaipingInternetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA7A1F71FD5300984112 /* TaipingInternetConfig.m */; };
 		E61ABAA51F71FD5300984112 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABA7D1F71FD5300984112 /* PayViewController.m */; };
+		E61ABAA91F7204C400984112 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAA81F7204C400984112 /* NSString+Base64.m */; };
+		E61ABAAC1F72051900984112 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAAB1F72051900984112 /* NSData+Base64.m */; };
+		E61ABAB11F7208A400984112 /* HosiptalView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAB01F7208A400984112 /* HosiptalView.m */; };
+		E61ABAB41F7208B700984112 /* HospitalDetailInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAB31F7208B700984112 /* HospitalDetailInfoView.m */; };
+		E61ABAB71F7208E300984112 /* HospitalDetailCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAB61F7208E300984112 /* HospitalDetailCellView.m */; };
+		EEEB2A4AB75AD2261FF63B97 /* libPods-PayProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EA4CCA9CBD4AEB811CA092 /* libPods-PayProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C9F9C091E265AAC00995032 /* PayProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C9F9C0D1E265AAC00995032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72EA4CCA9CBD4AEB811CA092 /* libPods-PayProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PayProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF6DE29E8958B172973AEC7 /* Pods-PayProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayProject/Pods-PayProject.release.xcconfig"; sourceTree = "<group>"; };
+		AB029F38D9910E21F47F1049 /* Pods-PayProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayProject/Pods-PayProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E61ABA321F71FD5300984112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E61ABA341F71FD5300984112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E61ABA361F71FD5300984112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,8 +75,6 @@
 		E61ABA4B1F71FD5300984112 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		E61ABA4C1F71FD5300984112 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
 		E61ABA4D1F71FD5300984112 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
-		E61ABA4E1F71FD5300984112 /* HosiptalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HosiptalView.h; sourceTree = "<group>"; };
-		E61ABA4F1F71FD5300984112 /* HosiptalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HosiptalView.m; sourceTree = "<group>"; };
 		E61ABA501F71FD5300984112 /* PerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerLabel.h; sourceTree = "<group>"; };
 		E61ABA511F71FD5300984112 /* PerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerLabel.m; sourceTree = "<group>"; };
 		E61ABA521F71FD5300984112 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
@@ -106,16 +106,18 @@
 		E61ABA6F1F71FD5300984112 /* UserLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginView.m; sourceTree = "<group>"; };
 		E61ABA701F71FD5300984112 /* UserLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserLoginView.xib; sourceTree = "<group>"; };
 		E61ABA711F71FD5300984112 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E61ABA731F71FD5300984112 /* InternetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetConfig.h; sourceTree = "<group>"; };
-		E61ABA741F71FD5300984112 /* InternetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetConfig.m; sourceTree = "<group>"; };
-		E61ABA751F71FD5300984112 /* InternetConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InternetConfig.plist; sourceTree = "<group>"; };
-		E61ABA761F71FD5300984112 /* InternetConfigDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetConfigDefine.h; sourceTree = "<group>"; };
-		E61ABA771F71FD5300984112 /* InternetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetConnection.h; sourceTree = "<group>"; };
-		E61ABA781F71FD5300984112 /* InternetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetConnection.m; sourceTree = "<group>"; };
-		E61ABA791F71FD5300984112 /* TaipingInternetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaipingInternetConfig.h; sourceTree = "<group>"; };
-		E61ABA7A1F71FD5300984112 /* TaipingInternetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaipingInternetConfig.m; sourceTree = "<group>"; };
 		E61ABA7C1F71FD5300984112 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
 		E61ABA7D1F71FD5300984112 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		E61ABAA71F7204C400984112 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		E61ABAA81F7204C400984112 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		E61ABAAA1F72051900984112 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		E61ABAAB1F72051900984112 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		E61ABAAF1F7208A400984112 /* HosiptalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HosiptalView.h; sourceTree = "<group>"; };
+		E61ABAB01F7208A400984112 /* HosiptalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HosiptalView.m; sourceTree = "<group>"; };
+		E61ABAB21F7208B700984112 /* HospitalDetailInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalDetailInfoView.h; sourceTree = "<group>"; };
+		E61ABAB31F7208B700984112 /* HospitalDetailInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalDetailInfoView.m; sourceTree = "<group>"; };
+		E61ABAB51F7208E300984112 /* HospitalDetailCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalDetailCellView.h; sourceTree = "<group>"; };
+		E61ABAB61F7208E300984112 /* HospitalDetailCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalDetailCellView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,18 +125,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEEB2A4AB75AD2261FF63B97 /* libPods-PayProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A89A83DD00EC65AEEED7BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB029F38D9910E21F47F1049 /* Pods-PayProject.debug.xcconfig */,
+				7EF6DE29E8958B172973AEC7 /* Pods-PayProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		16490100FAC3E83D92D6D7E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72EA4CCA9CBD4AEB811CA092 /* libPods-PayProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1C9F9C001E265AAB00995032 = {
 			isa = PBXGroup;
 			children = (
 				E61ABA2F1F71FD5300984112 /* PayProject */,
-				1C9F9C0B1E265AAC00995032 /* PayProject */,
 				1C9F9C0A1E265AAC00995032 /* Products */,
+				05A89A83DD00EC65AEEED7BE /* Pods */,
+				16490100FAC3E83D92D6D7E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,22 +165,6 @@
 				1C9F9C091E265AAC00995032 /* PayProject.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1C9F9C0B1E265AAC00995032 /* PayProject */ = {
-			isa = PBXGroup;
-			children = (
-				1C9F9C0C1E265AAC00995032 /* Supporting Files */,
-			);
-			path = PayProject;
-			sourceTree = "<group>";
-		};
-		1C9F9C0C1E265AAC00995032 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C9F9C0D1E265AAC00995032 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E61ABA2F1F71FD5300984112 /* PayProject */ = {
@@ -175,7 +180,6 @@
 				E61ABA6C1F71FD5300984112 /* Info.plist */,
 				E61ABA6D1F71FD5300984112 /* Login */,
 				E61ABA711F71FD5300984112 /* main.m */,
-				E61ABA721F71FD5300984112 /* Net */,
 				E61ABA7B1F71FD5300984112 /* pay */,
 				E61ABA7E1F71FD5300984112 /* query */,
 			);
@@ -192,6 +196,7 @@
 		E61ABA381F71FD5300984112 /* check */ = {
 			isa = PBXGroup;
 			children = (
+				E61ABAAE1F7208A400984112 /* Hosiptal */,
 				E61ABA391F71FD5300984112 /* ApplyBigView.h */,
 				E61ABA3A1F71FD5300984112 /* ApplyBigView.m */,
 				E61ABA3B1F71FD5300984112 /* ApplyButton.h */,
@@ -213,8 +218,6 @@
 				E61ABA4B1F71FD5300984112 /* data.plist */,
 				E61ABA4C1F71FD5300984112 /* DatePickerViewController.h */,
 				E61ABA4D1F71FD5300984112 /* DatePickerViewController.m */,
-				E61ABA4E1F71FD5300984112 /* HosiptalView.h */,
-				E61ABA4F1F71FD5300984112 /* HosiptalView.m */,
 				E61ABA501F71FD5300984112 /* PerLabel.h */,
 				E61ABA511F71FD5300984112 /* PerLabel.m */,
 				E61ABA521F71FD5300984112 /* PersonModel.h */,
@@ -232,6 +235,10 @@
 		E61ABA5A1F71FD5300984112 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E61ABAAA1F72051900984112 /* NSData+Base64.h */,
+				E61ABAAB1F72051900984112 /* NSData+Base64.m */,
+				E61ABAA71F7204C400984112 /* NSString+Base64.h */,
+				E61ABAA81F7204C400984112 /* NSString+Base64.m */,
 				E61ABA5B1F71FD5300984112 /* Acdata.h */,
 				E61ABA5C1F71FD5300984112 /* Acdata.m */,
 				E61ABA5D1F71FD5300984112 /* AppDelegate.h */,
@@ -269,21 +276,6 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		E61ABA721F71FD5300984112 /* Net */ = {
-			isa = PBXGroup;
-			children = (
-				E61ABA731F71FD5300984112 /* InternetConfig.h */,
-				E61ABA741F71FD5300984112 /* InternetConfig.m */,
-				E61ABA751F71FD5300984112 /* InternetConfig.plist */,
-				E61ABA761F71FD5300984112 /* InternetConfigDefine.h */,
-				E61ABA771F71FD5300984112 /* InternetConnection.h */,
-				E61ABA781F71FD5300984112 /* InternetConnection.m */,
-				E61ABA791F71FD5300984112 /* TaipingInternetConfig.h */,
-				E61ABA7A1F71FD5300984112 /* TaipingInternetConfig.m */,
-			);
-			path = Net;
-			sourceTree = "<group>";
-		};
 		E61ABA7B1F71FD5300984112 /* pay */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +292,19 @@
 			path = query;
 			sourceTree = "<group>";
 		};
+		E61ABAAE1F7208A400984112 /* Hosiptal */ = {
+			isa = PBXGroup;
+			children = (
+				E61ABAB51F7208E300984112 /* HospitalDetailCellView.h */,
+				E61ABAB61F7208E300984112 /* HospitalDetailCellView.m */,
+				E61ABAB21F7208B700984112 /* HospitalDetailInfoView.h */,
+				E61ABAB31F7208B700984112 /* HospitalDetailInfoView.m */,
+				E61ABAAF1F7208A400984112 /* HosiptalView.h */,
+				E61ABAB01F7208A400984112 /* HosiptalView.m */,
+			);
+			path = Hosiptal;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C9F9C201E265AAC00995032 /* Build configuration list for PBXNativeTarget "PayProject" */;
 			buildPhases = (
+				9E5BA7D0D24A8C42E9C5BE3C /* [CP] Check Pods Manifest.lock */,
 				1C9F9C051E265AAC00995032 /* Sources */,
 				1C9F9C061E265AAC00995032 /* Frameworks */,
 				1C9F9C071E265AAC00995032 /* Resources */,
+				DF8233A064A58236D7262AE0 /* [CP] Embed Pods Frameworks */,
+				F277F6B2BC33E077B7E0BEA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -364,46 +372,96 @@
 				E61ABA841F71FD5300984112 /* Main.storyboard in Resources */,
 				E61ABA831F71FD5300984112 /* LaunchScreen.storyboard in Resources */,
 				E61ABA8E1F71FD5300984112 /* data.plist in Resources */,
-				E61ABAA21F71FD5300984112 /* InternetConfig.plist in Resources */,
 				E61ABA9F1F71FD5300984112 /* UserLoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E5BA7D0D24A8C42E9C5BE3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8233A064A58236D7262AE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayProject/Pods-PayProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F277F6B2BC33E077B7E0BEA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayProject/Pods-PayProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C9F9C051E265AAC00995032 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61ABAB11F7208A400984112 /* HosiptalView.m in Sources */,
 				E61ABA971F71FD5300984112 /* AppDelegate.m in Sources */,
 				E61ABA9B1F71FD5300984112 /* LanuchViewController.m in Sources */,
 				E61ABA861F71FD5300984112 /* ApplyButton.m in Sources */,
 				E61ABA871F71FD5300984112 /* ApplyMessiageView.m in Sources */,
-				E61ABAA31F71FD5300984112 /* InternetConnection.m in Sources */,
 				E61ABA9A1F71FD5300984112 /* HomeViewController.m in Sources */,
 				E61ABAA01F71FD5300984112 /* main.m in Sources */,
 				E61ABA891F71FD5300984112 /* ApplyTableViewCell.m in Sources */,
-				E61ABA901F71FD5300984112 /* HosiptalView.m in Sources */,
 				E61ABA951F71FD5300984112 /* SectionView.m in Sources */,
 				E61ABAA51F71FD5300984112 /* PayViewController.m in Sources */,
+				E61ABAB41F7208B700984112 /* HospitalDetailInfoView.m in Sources */,
 				E61ABA8A1F71FD5300984112 /* ApplyView.m in Sources */,
 				E61ABA991F71FD5300984112 /* DisclaimerViewController.m in Sources */,
 				E61ABA9C1F71FD5300984112 /* NavigationController.m in Sources */,
-				E61ABAA11F71FD5300984112 /* InternetConfig.m in Sources */,
 				E61ABA931F71FD5300984112 /* PerTextField.m in Sources */,
 				E61ABA961F71FD5300984112 /* Acdata.m in Sources */,
 				E61ABA8C1F71FD5300984112 /* CheckModel.m in Sources */,
 				E61ABA921F71FD5300984112 /* PersonModel.m in Sources */,
+				E61ABAAC1F72051900984112 /* NSData+Base64.m in Sources */,
 				E61ABA9E1F71FD5300984112 /* UserLoginView.m in Sources */,
 				E61ABA881F71FD5300984112 /* ApplyTableview.m in Sources */,
+				E61ABAB71F7208E300984112 /* HospitalDetailCellView.m in Sources */,
 				E61ABA981F71FD5300984112 /* NSArray+desc.m in Sources */,
 				E61ABA8F1F71FD5300984112 /* DatePickerViewController.m in Sources */,
 				E61ABA851F71FD5300984112 /* ApplyBigView.m in Sources */,
+				E61ABAA91F7204C400984112 /* NSString+Base64.m in Sources */,
 				E61ABA911F71FD5300984112 /* PerLabel.m in Sources */,
 				E61ABA8B1F71FD5300984112 /* CellView.m in Sources */,
-				1C9F9C0E1E265AAC00995032 /* main.m in Sources */,
-				E61ABAA41F71FD5300984112 /* TaipingInternetConfig.m in Sources */,
 				E61ABA941F71FD5300984112 /* ProtectMessiageView.m in Sources */,
 				E61ABA8D1F71FD5300984112 /* CheckViewController.m in Sources */,
 			);
@@ -523,27 +581,33 @@
 		};
 		1C9F9C211E265AAC00995032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB029F38D9910E21F47F1049 /* Pods-PayProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5HLA6KUY2;
 				GCC_PREFIX_HEADER = "/Users/taiping002/Desktop/理赔免审核开发/PayProject/PayProject/Common/TPconfig.pch";
 				INFOPLIST_FILE = PayProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.PayProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		1C9F9C221E265AAC00995032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF6DE29E8958B172973AEC7 /* Pods-PayProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5HLA6KUY2;
 				GCC_PREFIX_HEADER = "/Users/taiping002/Desktop/理赔免审核开发/PayProject/PayProject/Common/TPconfig.pch";
 				INFOPLIST_FILE = PayProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----.PayProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

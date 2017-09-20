@@ -13,6 +13,7 @@
 
 #import "Acdata.h"
 
-//#import <MBProgressHUD.h>
-
+#import <MBProgressHUD.h>
+#define HospitalInfoLists       @"入住医院,入院日期,出院日期,发票总金额,自费金额,统筹支付金额,其他扣除,出院诊断"
+#define MSG_CHOOSE  @"请选择"
 #endif /* TPconfig_pch */

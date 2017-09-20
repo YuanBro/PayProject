@@ -22,7 +22,19 @@
     UIImageView *handView;
     
 }
+- (BOOL)shouldAutorotate {
+    return YES;
+}
 
+- (NSUInteger)supportedInterfaceOrientations {
+    
+    return UIInterfaceOrientationMaskLandscape;
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
+    return  UIDeviceOrientationLandscapeLeft;
+    
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
