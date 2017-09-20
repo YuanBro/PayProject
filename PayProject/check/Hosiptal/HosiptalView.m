@@ -61,22 +61,22 @@
     for (int i = 0; i < Count; i++) {
         
         
+//        
+//        if (TestModeEx) {
         
-        if (TestModeEx) {
-            
-            detail = [[HospitalDetailInfoView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width - 40, 44.0f * 7) target:self inRow:[hospitalInfoViews count] diagnosePopover:nil];
-            
-        } else {
-            
-            detail = [[HospitalDetailInfoView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width - 40, 44.0f * 6) target:self inRow:[hospitalInfoViews count] diagnosePopover:nil];
-        }
-        detail.delegate = self;
-        detail.tag = [hospitalInfoViews count];
-        [hospitalInfoViews addObject:detail];
-        [detail release];
-        [illnessCountArray addObject:[NSNumber numberWithInteger:0]];
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"aaa" object:illnessCountArray];
-        
+//            detail = [[HospitalDetailInfoView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width - 40, 44.0f * 7) target:self inRow:[hospitalInfoViews count] diagnosePopover:nil];
+//            
+////        } else {
+//        
+////            detail = [[HospitalDetailInfoView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width - 40, 44.0f * 6) target:self inRow:[hospitalInfoViews count] diagnosePopover:nil];
+////        }
+//        detail.delegate = self;
+//        detail.tag = [hospitalInfoViews count];
+//        [hospitalInfoViews addObject:detail];
+//    
+//        [illnessCountArray addObject:[NSNumber numberWithInteger:0]];
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"aaa" object:illnessCountArray];
+//        
     }
 
 }

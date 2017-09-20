@@ -41,8 +41,6 @@
 		E61ABAA91F7204C400984112 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAA81F7204C400984112 /* NSString+Base64.m */; };
 		E61ABAAC1F72051900984112 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAAB1F72051900984112 /* NSData+Base64.m */; };
 		E61ABAB11F7208A400984112 /* HosiptalView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAB01F7208A400984112 /* HosiptalView.m */; };
-		E61ABAB41F7208B700984112 /* HospitalDetailInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAB31F7208B700984112 /* HospitalDetailInfoView.m */; };
-		E61ABAB71F7208E300984112 /* HospitalDetailCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61ABAB61F7208E300984112 /* HospitalDetailCellView.m */; };
 		EEEB2A4AB75AD2261FF63B97 /* libPods-PayProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EA4CCA9CBD4AEB811CA092 /* libPods-PayProject.a */; };
 /* End PBXBuildFile section */
 
@@ -114,10 +112,6 @@
 		E61ABAAB1F72051900984112 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		E61ABAAF1F7208A400984112 /* HosiptalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HosiptalView.h; sourceTree = "<group>"; };
 		E61ABAB01F7208A400984112 /* HosiptalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HosiptalView.m; sourceTree = "<group>"; };
-		E61ABAB21F7208B700984112 /* HospitalDetailInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalDetailInfoView.h; sourceTree = "<group>"; };
-		E61ABAB31F7208B700984112 /* HospitalDetailInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalDetailInfoView.m; sourceTree = "<group>"; };
-		E61ABAB51F7208E300984112 /* HospitalDetailCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalDetailCellView.h; sourceTree = "<group>"; };
-		E61ABAB61F7208E300984112 /* HospitalDetailCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalDetailCellView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,10 +289,6 @@
 		E61ABAAE1F7208A400984112 /* Hosiptal */ = {
 			isa = PBXGroup;
 			children = (
-				E61ABAB51F7208E300984112 /* HospitalDetailCellView.h */,
-				E61ABAB61F7208E300984112 /* HospitalDetailCellView.m */,
-				E61ABAB21F7208B700984112 /* HospitalDetailInfoView.h */,
-				E61ABAB31F7208B700984112 /* HospitalDetailInfoView.m */,
 				E61ABAAF1F7208A400984112 /* HosiptalView.h */,
 				E61ABAB01F7208A400984112 /* HosiptalView.m */,
 			);
@@ -444,7 +434,6 @@
 				E61ABA891F71FD5300984112 /* ApplyTableViewCell.m in Sources */,
 				E61ABA951F71FD5300984112 /* SectionView.m in Sources */,
 				E61ABAA51F71FD5300984112 /* PayViewController.m in Sources */,
-				E61ABAB41F7208B700984112 /* HospitalDetailInfoView.m in Sources */,
 				E61ABA8A1F71FD5300984112 /* ApplyView.m in Sources */,
 				E61ABA991F71FD5300984112 /* DisclaimerViewController.m in Sources */,
 				E61ABA9C1F71FD5300984112 /* NavigationController.m in Sources */,
@@ -455,7 +444,6 @@
 				E61ABAAC1F72051900984112 /* NSData+Base64.m in Sources */,
 				E61ABA9E1F71FD5300984112 /* UserLoginView.m in Sources */,
 				E61ABA881F71FD5300984112 /* ApplyTableview.m in Sources */,
-				E61ABAB71F7208E300984112 /* HospitalDetailCellView.m in Sources */,
 				E61ABA981F71FD5300984112 /* NSArray+desc.m in Sources */,
 				E61ABA8F1F71FD5300984112 /* DatePickerViewController.m in Sources */,
 				E61ABA851F71FD5300984112 /* ApplyBigView.m in Sources */,
